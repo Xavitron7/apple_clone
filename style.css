@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+#container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+nav {
+    background: linear-gradient(#333, #aaa);
+    width: 50%;    
+    position: absolute;
+    z-index:1;
+    top: 40px;
+    left: 400px;
+    border-radius: 10px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+    
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+nav ul li {
+    padding: 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul li:hover {
+    background-color: #333;
+}
+
+nav ul li:last-child:hover {
+    background: linear-gradient(#333, #aaa);
+
+}
+
+nav ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+
+input {
+    background: linear-gradient(#333, #aaa);
+    border: 0;
+}
+
+#splash {
+    background-image: url("images/your_verse_hero.jpg");
+    background-position: 0 600px;
+    height: 538px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.hero-text {
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+
+#title {
+    background-image: url("images/your_verse_title_small.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    top: 70px;
+}
+
+#subtitle {
+    background-image: url("images/your_verse_subhead_small.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    top: 95px;
+}
+
+#cta {
+    background-image: url("images/cta_your_verse_27pt.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    top: 120px;
+}
+
+#phone-grid {
+    width: 100%;
+    display: flex;
+}
+
+
+#store-and-links {
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+
+#store-and-links ul li {
+    border-right: 1px solid #666;
+    padding-right: 5px;
+}
+
+#store-and-links ul li:last-child {
+    border: 0;
+    
+}
+
+
+#copyright {
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+#copyright ul li {
+    border-right: 1px solid #666;
+    padding-right: 5px;
+}
+
+#copyright ul li:last-child {
+    border: 0;
+}
