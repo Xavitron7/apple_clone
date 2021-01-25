@@ -58,8 +58,14 @@ nav ul li img {
 
 
 input {
-    background: linear-gradient(#333, #aaa);
+    background: 0;  
     border: 0;
+    opacity: 1;
+}
+
+#search-span {
+    background: linear-gradient(#333, #aaa);
+    border-radius: 10px;
 }
 
 #splash {
